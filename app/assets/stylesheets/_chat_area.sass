@@ -79,6 +79,9 @@ html body .ui-tabs .ui-tabs-nav li
       border: none
       color: #7f8587	
       background: transparent !important
+      margin-left: -22px
+      &:first-child
+        margin-left: none
       a
         padding: 0px !important
         color: $active-tab-color
@@ -87,7 +90,7 @@ html body .ui-tabs .ui-tabs-nav li
             text-decoration: underline
     .ui-state-active
       text-shadow: 0px 0px 2px #FFF
-
+      z-index: 2
 
 .ui-widget-content
   height: 100%
